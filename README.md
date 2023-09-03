@@ -1,5 +1,6 @@
 
 ### склонируйте репозиторий, наберите npm install , потом npm start
+чат адаптирован под мобильную версию
 # Hi, I'm Alexahdr ![](https://github.com/blackcater/blackcater/raw/main/images/Hi.gif) 
 ### Computer science student, IT news writer from Russia 🇷🇺
 # Chat

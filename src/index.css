@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Oswald:wght@200&family=Playfair+Display:ital@0;1&display=swap');
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+.navbar button {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.auth {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(45deg, red, black, black, red);
+}
+
+.auth button {
+  padding: 10px 45px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  border: 3px solid white;
+  border-radius: 10px;
+  transition: 0.5s;
+  font-family: 'Playfair Display', serif;
+  margin: 20px;
+}
+
+.auth button:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  background-color: orange;
+}
+
+
+.chat_container {
+
+  background: linear-gradient(45deg, red, black, black, red);
+  width: 100%;
+  /* height: calc(100vh - 70px); */
+  display: flex;
+  flex-direction: column;
+  font-family: 'Oswald', sans-serif;
+
+  /* text-align: center; */
+  color: white;
+}
+
+.chat {
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 70px);
+}
+
+.chat form {
+  display: flex;
+
+
+}
+
+.chat input {
+  width: 70%;
+  padding: 15px 20px;
+
+}
+
+.chat button {
+  background: red;
+  color: white;
+  width: 30%;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.user1 p {
+  width: 50%;
+  padding: 10px;
+  background-color: blue;
+  /* box-shadow: 0 10px 10px; */
+  border-radius: 0 10px 10px 10px;
+  color: white;
+
+}
+
+.user1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* margin-right: 100px; */
+  padding: 10px;
+}
+
+.user2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* margin-left: 100px; */
+  padding: 10px;
+}
+
+.user2 p {
+  width: 50%;
+  padding: 10px;
+  background-color: green;
+  /* box-shadow: 0 10px 10px; */
+  border-radius: 10px 0px 10px 10px;
+  color: white;
+
+}
+
+.room {
+  height: calc(100vh - 70px);
+  background: linear-gradient(45deg, red, black, black, red);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.room input {
+  padding: 10px 10px;
+  margin: 10px 0;
+}
+
+.room button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 12px 10px;
+  cursor: pointer;
+}
+
+.themas {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  text-align: center;
+}
+
+.themas h2 {
+  font-family: 'Oswald', sans-serif;
+  color: gray;
+}

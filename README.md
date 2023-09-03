@@ -1,5 +1,5 @@
 
-###склонируйте репозиторий, наберите npm install , потом npm start
+### склонируйте репозиторий, наберите npm install , потом npm start
 # Hi, I'm Alexahdr ![](https://github.com/blackcater/blackcater/raw/main/images/Hi.gif) 
 ### Computer science student, IT news writer from Russia 🇷🇺
 # Chat

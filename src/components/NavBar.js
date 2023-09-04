@@ -2,12 +2,15 @@ import React from 'react'
 import { signOut } from "firebase/auth";
 import { auth } from '../firebase.js'
 import { useNavigate } from 'react-router-dom'
+import Cookies from 'universal-cookie';
 
 const NavBar = () => {
   const navigate = useNavigate()
+  const cookies = new Cookies()
 
   const outGoogle = () => {
     signOut(auth).then(() => {
+      cookies.remove('auth-token')
       console.log('out')
       navigate('/')
     }).catch((error) => {

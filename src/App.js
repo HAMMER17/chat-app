@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Chat from "./components/Chat";
-import NavBar from "./components/NavBar";
+// import NavBar from "./components/NavBar";
 import Cookies from 'universal-cookie';
 import Auth from "./components/Auth";
 import Home from "./components/Home";

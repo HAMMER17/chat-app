@@ -21,7 +21,7 @@ const NavBar = () => {
     <div className='navbar'>
       <h2 style={{ cursor: 'pointer' }} onClick={() => navigate('/home')}>Главная</h2>
 
-      <h2>{auth?.currentUser?.displayName}</h2>
+      <h3>{auth?.currentUser?.displayName}</h3>
       <button onClick={outGoogle}>Выйти</button>
     </div>
   )

@@ -49,7 +49,8 @@ const Chat = (props) => {
             img: downloadURL
           })
           setNewMessage('')
-          console.log('File available at', downloadURL);
+          setFile(null)
+
         });
       }
     );

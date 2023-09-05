@@ -22,7 +22,7 @@ const Auth = (props) => {
   }
   return (
     <div className='auth'>
-      <h2>Welcome my Chat</h2>
+      <h2>Welcome to my Chat</h2>
       <button onClick={signInWithGoogle}>Sign In With Google</button>
     </div>
   )

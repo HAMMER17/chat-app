@@ -32,6 +32,17 @@ body {
   color: white;
   cursor: pointer;
   border: none;
+  transition: 0.5s;
+}
+
+.navbar button:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  background-color: orange;
+}
+
+.navbar h2:hover {
+  color: red;
 }
 
 .auth {
@@ -194,9 +205,22 @@ footer {
   top: 100px;
   left: 50px;
   text-align: center;
+  transition: 0.5s;
 }
 
 .themas h2 {
   font-family: 'Oswald', sans-serif;
   color: gray;
+}
+
+.themas h4 {
+  padding: 5px;
+  font-family: 'Playfair Display', serif;
+}
+
+.themas h4:hover {
+  transition: 0.5s;
+  background-color: white;
+  color: red;
+  border-radius: 10px;
 }
